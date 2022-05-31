@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
 
-<script src="script.js"></script>
+<body>
+    <!-- <h1 id="titulo" onclick="alert('clicou')">Seja Bem Vindo</h1> Evento clique não precisa ser em um botão -->
+    <!-- <h1 id="titulo" onmouseover="console.log('passou o mouse')">Seja Bem Vindo</h1> -->
+    <!-- <h1 id="titulo" onmouseout="console.log('tirou o mouse')">Seja Bem Vindo</h1> -->
+    <h1 id="titulo" onmouseout="console.log('tirou o mouse')" onmouseover="console.log('passou o mouse')">Seja Bem Vindo</h1>
+
+    <input id="campo" type="text" name="usuario" value="Nome do Usuario">
+
+    <!-- <button onclick="clicou()">Clique em mim</button> -->
+    <!-- <button onclick="document.getElementById('titulo').innerHTML = 'Hello word'">Clique em mim</button>
+    Setar diretamente um cod JS -->
+    <!-- <button onclick="this.innerHTML = 'clicou'">Clique aqui</button> alterando com o this(este) -->
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
